@@ -1,5 +1,7 @@
 ## **Vue.js**
 
+##### lesson - 1 
+
 - Lifec cycle methods:
 
  1. setup -> install 
@@ -12,14 +14,20 @@
 
  - State managment
 
- 1. ref      -> :primative
- 2. reactive -> :non primative
+ 1. ref      -> :primative 
+ 2. reactive -> : non primative
 
  - Expression template
 
  ``` 
  <h1>{{ number }}</h1>
 
+ <Box attr_name="attr_value"/> 
+ // static props
+
+
+ <Box :attr_name="attr_value"/>
+// dynamic props
 
 
 ```
@@ -82,9 +90,41 @@ const props = defineProps({
 
 const data=ref([1,2,3,4,5,6,7]);
 
-<PostItem v-for="el in data" :data="el" txt="Vue.app"/>
+<PostItem v-for="(el,index,arr) in data" :data="el" txt="Vue.app"/>
 
 ```
+
+
+#### lesson-2
+
+1.  Attribute binding /
+
+- ref attribute
+- v-bind
+- v-model
+- vue forms
+
+```
+
+/// 1. ref attribute select -> 
+/// 2. :value="text" -> @keyup="e=>text.value=e.target.value"
+/// 3. @keyup="e=>getTex(e)" , getText(e){text.value=e.target.value}
+/// 4. <input v-model="text" type="text"/>
+
+```
+
+2. slot -> react in children /
+3. emits  /
+4. reusabele components  
+5. vue-router latest /
+6. Guards ->  
+
+
+
+
+
+
+
 
 
 
