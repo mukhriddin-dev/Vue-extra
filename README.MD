@@ -113,11 +113,29 @@ const data=ref([1,2,3,4,5,6,7]);
 
 ```
 
-2. slot -> react in children /
-3. emits  /
-4. reusabele components  
-5. vue-router latest /
-6. Guards ->  
+2. slot -> react in children / +
+3. emits  / +
+4. reusabele components  -
+5. vue-router latest / +
+6. Guards -> / +
+
+
+#### lesson-3
+
+
+0. Nested routing & dynamic routing
+ - useRouter +
+1. Design pattern  (admin dashboard / user dashboard)     -> +
+2. Pina 
+3. .env        -> +
+4. composables -> -
+5. naive , primeVue , element plus , vutfiy , ......
+
+
+### part-2
+
+1. 
+
 
 
 
