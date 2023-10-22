@@ -132,9 +132,19 @@ const data=ref([1,2,3,4,5,6,7]);
 5. naive , primeVue , element plus , vutfiy , ......
 
 
-### part-2
+### PINIA
 
-1. 
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
+
+### Guards
+
+![Alt text](image-2.png)
+
+
 
 
 
