@@ -145,6 +145,13 @@ const data=ref([1,2,3,4,5,6,7]);
 ![Alt text](image-2.png)
 
 
+### CUSTOM LINKS
+![Alt text](image-3.png)
+
+### ROUTER GUARDS WITH ROLE
+
+![Alt text](image-4.png)
+
 
 
 
